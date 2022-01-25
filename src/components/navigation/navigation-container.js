@@ -14,8 +14,8 @@ export default class NavigationComponent extends Component {
         </NavLink>
 
         <NavLink to="/about-me">About</NavLink>
-        <NavLink to="/about-me">Contact</NavLink>
-        <NavLink to="/about-me">Blog</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/Blog">Blog</NavLink>
 
         
         {false ? <button>Add Blog</button> : null}
